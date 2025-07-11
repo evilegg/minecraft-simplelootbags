@@ -1,0 +1,13 @@
+# Ignore build files
+*.zip
+*.jar
+*.log
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore temporary files
+.*.sw?
+.DS_Store
+
