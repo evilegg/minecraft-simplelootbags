@@ -2,7 +2,7 @@
   "title": "simplelootbags",
   "description": "Configurable and convertible loot bags from hostile mobs",
   "body": "Five tiers of loot bags that have a chance to drop when a hostile mob is killed. Loot bags can be crafted into higher tier bags. By default, they drop a few create-mod resources and curios. For use in my horde+create modpack to balance resource gathering with the need to hide from invasions.",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "loaders": ["forge", "fabric", "neofabric"],
   "license": "GPL3",
   "authors": ["@evilegg"],
@@ -13,6 +13,8 @@
   "icon": "images/icon.png",
   "gallery": [
     "images/gallery1.png",
+    "images/gallery2.png",
+    "images/gallery3.png",
   ],
   "dependencies": {
     "kubejs": ">=1.0.0"
