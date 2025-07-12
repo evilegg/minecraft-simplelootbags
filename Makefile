@@ -27,7 +27,7 @@ clean:
 # Package the mod into a ZIP file
 package: clean
 	@echo "Packaging the mod..."
-	@zip -r $(ZIP_FILE) $(KUBEJS_DIR) $(MODRINTH_JSON) $(PACK_MCMETA)
+	@zip -x '*/.DS_Store' @ -r $(ZIP_FILE) $(KUBEJS_DIR) $(MODRINTH_JSON) $(PACK_MCMETA)
 
 # Help command
 help:
